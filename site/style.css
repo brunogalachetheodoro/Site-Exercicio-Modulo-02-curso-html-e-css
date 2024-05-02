@@ -40,7 +40,8 @@ nav > a {
 }
 
 nav > a:hover {
-    text-decoration: underline;
+    background-color: rgb(3, 231, 3);
+    color: black;
 } 
 
 main > h2 {
@@ -61,4 +62,16 @@ main {
 
 .cor-palavras {
     color: rgb(0, 90, 0);
+}
+
+.estilo-link {
+    text-decoration: none;
+    background-color: rgba(13, 155, 13, 0.514);
+    color: rgb(3, 78, 3);
+    font-weight: 700;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
 }
