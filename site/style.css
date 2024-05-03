@@ -44,7 +44,7 @@ nav > a:hover {
     color: black;
 } 
 
-main > h2 {
+h2 {
     font-family: 'android';
     font-size: 25px;
     color: rgb(0, 90, 0);
@@ -60,6 +60,7 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
+
 .cor-palavras {
     color: rgb(0, 90, 0);
 }
@@ -74,4 +75,13 @@ main {
 .imagem {
     display: flex;
     justify-content: center;
+}
+
+.background {
+    background-color: rgb(0, 90, 0);
+}
+
+.estilo-p {
+    color: white;
+    text-align: center;
 }
