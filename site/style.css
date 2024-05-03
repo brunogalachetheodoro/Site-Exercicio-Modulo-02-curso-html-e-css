@@ -59,6 +59,7 @@ main {
     padding: 50px;
     margin: 0px 50px 0px 50px;
     background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
 }
 
 
@@ -84,9 +85,39 @@ main {
 
 .background-div {
     background-color: rgba(13, 155, 13, 0.514) ;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.div-text {
+    padding: 0% 10px 5px 10px;
 }
 
 .estilo-p {
     color: white;
     text-align: center;
+}
+
+div > p {
+    text-indent: 40px;
+}
+
+h3 {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.checklist {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+li::before {
+    content: "🗸";
 }
