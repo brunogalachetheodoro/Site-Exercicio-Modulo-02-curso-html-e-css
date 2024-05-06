@@ -3,6 +3,7 @@
     font-family: 'android';
     src: url(../site/fonte/idroid.otf);
 }
+
 body, h1{
     margin: 0;
     padding: 0;
@@ -44,6 +45,8 @@ nav > a {
 nav > a:hover {
     background-color: rgb(3, 231, 3);
     color: black;
+    transition-duration: 0.5s;
+    border-radius: 5px;
 } 
 
 h2 {
@@ -57,13 +60,26 @@ main > p {
 }
 
 main {
+
+    min-width: 300px;
+    max-width: 1000px;
     padding: 50px;
-    margin: 0px 100px 0px 100px;
+    margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.384);
 }
 
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
 .cor-palavras {
     color: rgb(0, 90, 0);
@@ -86,7 +102,16 @@ main {
     justify-content: center;
     background-color: rgb(0, 90, 0);
     padding: 20px;
-    margin: 0;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.video > iframe {
+    position: absolute;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .background {
@@ -96,6 +121,7 @@ main {
 .background-div {
     background-color: rgba(13, 155, 13, 0.514) ;
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.548);
 }
 
 .div-text {
@@ -128,6 +154,7 @@ ul {
     list-style:none;
     padding: 0;
     margin: 0;
+    columns: 2;
 }
 
 li::before {
